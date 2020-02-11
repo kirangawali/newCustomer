@@ -40,7 +40,7 @@ public class CustomerController {
   
 	/* @PostMapping("/savedata")
 	public String saveCustomerData(@RequestBody Customer customer) {
-		System.out.println("********************vaishali*******" + customer.toString());
+		System.out.println("***************************" + customer.toString());
 		customerDaoImpl.saveCustomerData(customer);
 
 		return "Data save successfully";
@@ -49,7 +49,7 @@ public class CustomerController {
 	
 	 @PostMapping("/savedata")
 	public List<Customer> saveCustomerData(@RequestBody Customer customer) {
-		System.out.println("********************vaishali*******" + customer.toString());
+		System.out.println("***************************" + customer.toString());
 		customerDaoImpl.saveCustomerData(customer);
 		 Map<String,String> r = new  HashMap<String,String>();
 		 r.put("msg" , "Data Sava Successfully");
